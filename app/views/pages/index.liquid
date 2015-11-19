@@ -34,9 +34,6 @@ meta_keywords: panda biscuits
 
   </head>
   <body>
-    Coming soon.
-    {{ "testing and testing" | upcase | truncate: 10, "!!!" }}
-    {{ 10 | minus: 4 }}
 
 
     <div class="container">
@@ -66,6 +63,7 @@ meta_keywords: panda biscuits
                 <li {% if page.slug == "index" %}class="active"{% endif %}>
                   <a href="/">Home</a>
                 </li>
+                {% nav "site", no_wrapper: true, active_class: "active" %}
               </ul>
             </div>
           </nav>
@@ -76,7 +74,11 @@ meta_keywords: panda biscuits
       <div class="row">
         <div class="col-md-10 col-md-offset-1 col-sm-12">
           <h2>{{ page.title }}</h2>
-          Coming Soon.
+          {% block 'main' %}
+            <p>Coming Soon.</p>
+            <p>{{ "testing and testing" | upcase | truncate: 10, "!!!" }}</p>
+            <p>{{ 10 | minus: 4 }}</p>
+          {% endblock %}
         </div>
       </div>
     </div>
