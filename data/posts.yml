@@ -1,0 +1,24 @@
+- "Sample 1":
+    posted_at: 2015/11/20 # YYYY/MM/DD
+    teaser: "Voluptas consequatur magnam provident minima tempore est ab quae. Est ducimus accusantium fugit id temporibus. Praesentium mollitia voluptatem eveniet omnis quos eaque id velit. Eos iusto et doloremque nesciunt exercitationem a consequatur. Animi est voluptatem eum."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Delectus totam eveniet commodi eius. Animi reprehenderit et ipsam. Dolore quibusdam et quidem quam eius iure est."
+
+- "Sample 2":
+    posted_at: 2015/11/20 # YYYY/MM/DD
+    teaser: "Aut incidunt non sit ea voluptatum. Et saepe unde quidem at mollitia quia quisquam dolores. Distinctio odio sunt esse maiores illum nisi excepturi in."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Beatae et vel recusandae magni. Dolor quos adipisci sed et neque nisi porro. Et et voluptatibus id non animi. Nulla velit praesentium facere."
+
+- "Sample 3":
+    posted_at: 2015/11/20 # YYYY/MM/DD
+    teaser: "Exercitationem porro corporis et quia quia. Tempore sint autem fugit asperiores. Aut ea in praesentium dolorem sit fugiat. Voluptatem necessitatibus omnis enim quaerat. Natus et sed dolor quas voluptas dolores."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Corporis velit ut aut distinctio sapiente magni minus consequatur. Est totam aut eum ducimus at aut. Iste numquam totam cupiditate sit culpa harum quo enim. Esse tempora eos rerum sed vero qui ut."
+
+- "Sample 4":
+    posted_at: 2015/11/20 # YYYY/MM/DD
+    teaser: "Est quo et dolores vel. Eaque magnam facilis iure suscipit nesciunt exercitationem quam nostrum. Officia eius rerum minus omnis quaerat tempore et quasi."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Sit et sed porro aut hic sint et expedita. Eum accusantium tempora consequatur nisi quia recusandae rerum similique. Consequatur sit ipsam minima eos. Pariatur nostrum harum aut voluptate laudantium voluptates dolor quibusdam."
+
