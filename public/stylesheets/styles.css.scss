@@ -2,6 +2,18 @@
 body * {
   font-family: 'Open Sans', sans-serif;
 }
+/* home page */
+body.page-index .jumbotron {
+  color: #fff;
+  text-align: justify;
+  background-image: url('../images/new_york_at_night.jpg');
+  background-position: center top;
+}
+body.page-index .jumbotron {
+  padding-top: 10px;
+  padding-bottom: 25%;
+}
+
 /* a nice frame for images */
 div.img-box {
   border-width: 5px;
@@ -15,18 +27,6 @@ div.img-box img {
 div.img-box p {
   margin: 5px;
   text-align: center;
-}
-
-/* home page */
-body.page-index .jumbotron {
-  color: #fff;
-  text-align: justify;
-  background-image: url('../images/new_york_at_night.jpg');
-  background-position: center top;
-}
-body.page-index .jumbotron {
-  padding-top: 10px;
-  padding-bottom: 25%;
 }
 
 /* if they click on a boxed image, enlarge it */
@@ -64,6 +64,10 @@ article.post h3.posted-at {
   font-size: 20px;
   margin-top: 0px;
   color: #999;
+}
+
+div.photos div.img-box {
+  margin-bottom: 20px;
 }
 
 /* the footer */
