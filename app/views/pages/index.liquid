@@ -2,6 +2,12 @@
 title: Home
 published: true
 meta_keywords: panda biscuits
+
+editable_elements:
+  'main/jumbotron_title': Life's to short not to get away for awhile!
+  'main/jumbotron_message': Learn about cool places to see abroad, interesting things to eat, and little travel tips you won't believe you lived without.
+  'main/jumbotron_button': Browse our articles
+
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +69,7 @@ meta_keywords: panda biscuits
             <div class="collapse navbar-collapse" id="main-nav">
               <ul class="nav navbar-nav">
                 <li {% if page.slug == "index" %}class="active"{% endif %}>
-                  <a href="/">Home</a>
+                  <a href="/{{ locale }}">{{ 'home_page' | translate }}</a>
                 </li>
                 {% nav "site", no_wrapper: true, active_class: "active" %}
               </ul>
@@ -102,7 +108,7 @@ meta_keywords: panda biscuits
                 {{ jumbotron_message | escape }}
               </p>
               <p>
-                <a href="/posts" class="btn btn-primary btn-lg">
+                <a href="/{{ locale }}/posts/{{ post._slug }}" class="btn btn-primary btn-lg">
                 {{ jumbotron_button | escape }}
                 </a>
               </p>

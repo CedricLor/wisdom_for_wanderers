@@ -6,3 +6,46 @@
 # hello_world:
 #   en: Hello world !
 #   fr: Bonjour le monde !
+home_page:
+  de: Startseite
+  en: Home
+  fr: Accueil
+  ru: Главная страница
+  zh-CN: "主页"
+
+en:
+  en: English
+  de: English
+  fr: English
+  ru: English
+  zh-CN: "English"
+
+de:
+  en: Deutsch
+  fr: Deutsch
+  ru: Deutsch
+  zh-CN: "Deutsch"
+
+fr:
+  en: Français
+  de: Français
+  ru: Français
+  zh-CN: "Français"
+
+ru:
+  en: Русский
+  de: Русский
+  fr: Русский
+  ru: Русский
+  zh-CN: "Русский"
+
+zh-CN:
+  en: Chinese
+  de: Chinesisch
+  fr: Chinois
+  ru: Китайский
+  en: "中文"
+  de: "中文"
+  fr: "中文"
+  ru: "中文"
+  zh-CN: "中文"
