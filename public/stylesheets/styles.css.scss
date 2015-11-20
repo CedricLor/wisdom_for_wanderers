@@ -38,6 +38,18 @@ div.img-box p {
   color: #fff;
 }
 
+/* the footer */
+.footer {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer p {
+  padding: 10px;
+  text-align: center;
+}
+
 /* phones */
 @media (max-width: 767px) {
   body.page-about .img-box {

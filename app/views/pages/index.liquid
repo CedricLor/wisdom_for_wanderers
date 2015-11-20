@@ -78,9 +78,13 @@ meta_keywords: panda biscuits
           <h2>{{ page.title }}</h2>
           {% block 'main' %}
             <p>Coming Soon.</p>
+            {% assign photo = "temppeliaukio.jpg" | theme_image_url %}
+            {% include 'img_box' with photo, caption: "Temppeliaukio Church, Helsinki", size: "1000x300#" %}
+
             <p>{{ "testing and testing" | upcase | truncate: 10, "!!!" }}</p>
             <p>{{ 10 | minus: 4 }}</p>
           {% endblock %}
+          {% include 'footer' %}
         </div>
       </div>
     </div>
