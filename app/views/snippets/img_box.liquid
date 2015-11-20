@@ -3,6 +3,6 @@
     <img src="{{ photo | resize: size }}" alt="{{ caption }}" />
   </a>
   <p>
-    {{ caption }}
+    {{ caption | escape }}
   </p>
 </div>
