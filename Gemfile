@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'rails'
+
+# Before running install, do
+# gem install locomotivecms_wagon -- --with-cppflags=-I/usr/local/opt/openssl/include
 gem 'locomotivecms_wagon', '1.5.8'
 
 group :development do
