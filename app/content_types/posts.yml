@@ -32,7 +32,7 @@ fields:
     type: string
     required: true
     hint: Please enter here the title of your post
-    localized: false
+    localized: true
 
 - posted_at: # The lowercase, underscored name of the field
     label: true # Human readable name of the field
@@ -53,7 +53,7 @@ fields:
     type: text
     required: false
     hint: Please enter here a short lead-in to the post displayed when listing posts
-    localized: false
+    localized: true
     text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
 - featured_image: # The lowercase, underscored name of the field
@@ -68,7 +68,7 @@ fields:
     type: text
     required: false
     hint: Please enter your post here
-    localized: false
+    localized: true
     text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
 - photos:
